@@ -3,13 +3,13 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Information from "../components/information.js";
-import HeadMasterComment from "../components/headMasterComment.js"
+import HeadMasterComment from "../components/headMasterComment.js";
 import Card from "../components/card.js";
 import searchTranslations from "../public/text.json";
 import CardBanner from "../components/cardBanner.js";
 import InstaExample from "../components/instaExample.js";
-import GridLayout from "../components/gridLayout"
-import styles from '../styles/layout.module.css'
+import GridLayout from "../components/gridLayout";
+import styles from "../styles/layout.module.css";
 
 const text = searchTranslations;
 
@@ -21,8 +21,8 @@ export default function Home() {
         <div className="container">
           <CardBanner></CardBanner>
           <Card imgSrc={"/images/landscape-photo.jpg"}></Card>
-          <Information></Information>  
-          <InstaExample></InstaExample>  
+          <Information></Information>
+          <InstaExample></InstaExample>
           <Card imgSrc={"/images/landscape-photo-2.jpg"}></Card>
           <GridLayout></GridLayout>
           <HeadMasterComment></HeadMasterComment>
@@ -30,7 +30,9 @@ export default function Home() {
       </main>
 
       <footer>
-        <div className={styles.container}>{text.textTen}</div>
+        <div className={styles.container}>
+          <b>{text.textTen}</b>
+        </div>
       </footer>
     </>
   );

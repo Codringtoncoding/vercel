@@ -8,38 +8,33 @@ export default function Information() {
   return (
     <section className={utilStyles.headingMd}>
       <div className={styles.container}>
-        <ul>
+        <p>
+          {text.textThree} {text.textFour}
+        </p>
+
+        <ol>
           <li>
-            <p>{text.textThree}</p>
+            {" "}
+            <p>{text.textSix}</p>
           </li>
           <li>
             {" "}
-            <p>{text.textFour}</p>
+            <p>{text.textSeven}</p>
           </li>
-          <ol>
-            <li>
-              {" "}
-              <p>{text.textSix}</p>
-            </li>
-            <li>
-              {" "}
-              <p>{text.textSeven}</p>
-            </li>
-            <li>
-              {" "}
-              <p>{text.textEight}</p>
-            </li>
-            <li>
-              {" "}
-              <p>{text.textNine}</p>
-            </li>
+          <li>
+            {" "}
+            <p>{text.textEight}</p>
+          </li>
+          <li>
+            {" "}
+            <p>{text.textNine}</p>
+          </li>
 
-            <li>
-              {" "}
-              <p>{text.textFive}</p>
-            </li>
-          </ol>
-        </ul>
+          <li>
+            {" "}
+            <p>{text.textFive}</p>
+          </li>
+        </ol>
       </div>
     </section>
   );
