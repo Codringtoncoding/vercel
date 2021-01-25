@@ -6,6 +6,7 @@ export default function InstaExample() {
   return (
     <section className={utilStyles.headingXlExample}>
       <div className={styles.container}>
+      <img className={cardStyles.headerImage} src="/images/background.png" />
         <p>
           Checkout an{" "}
           <Link href="/pdf">

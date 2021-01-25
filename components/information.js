@@ -8,6 +8,8 @@ export default function Information() {
   return (
     <section className={utilStyles.headingMd}>
       <div className={styles.container}>
+      <img className={cardStyles.headerImage} src="/images/background.png" />
+
         <p>
           {text.textThree} {text.textFour}
         </p>
