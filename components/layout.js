@@ -1,6 +1,5 @@
 import styles from '../styles/layout.module.css'
 import Head from 'next/head'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 /* compnent level wrapper layout*/
 

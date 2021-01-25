@@ -1,13 +1,10 @@
-import cardStyles from "../styles/card.module.css";
 import styles from "../styles/layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 export default function InstaExample() {
-
   return (
     <section className={utilStyles.headingXlExample}>
-      
       <div className={styles.container}>
         <p>
           Checkout an{" "}

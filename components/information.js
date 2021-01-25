@@ -1,16 +1,14 @@
 import utilStyles from "../styles/utils.module.css";
 import searchTranslations from "../public/text.json";
-import styles from '../styles/layout.module.css'
+import styles from "../styles/layout.module.css";
 
 export default function Information() {
   const text = searchTranslations;
 
   return (
-
-<section className={utilStyles.headingMd}>
+    <section className={utilStyles.headingMd}>
       <div className={styles.container}>
         <ul>
-            
           <li>
             <p>{text.textThree}</p>
           </li>
