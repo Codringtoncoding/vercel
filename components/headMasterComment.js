@@ -1,4 +1,3 @@
-import cardStyles from "../styles/card.module.css";
 import styles from "../styles/layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import searchTranslations from "../public/text.json";
