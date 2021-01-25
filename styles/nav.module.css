@@ -1,0 +1,11 @@
+.Navbar {
+  background-color: gold;
+  opacity: 0.9;
+  font-family: Montserrat;
+  font-size: 1rem;
+  
+}
+
+.Navbar img {
+  border-radius: 50%;
+}

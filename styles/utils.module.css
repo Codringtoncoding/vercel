@@ -1,0 +1,94 @@
+/* //used for multiple components */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.heading2Xl {
+  font-family: Montserrat;
+
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+  .headingXl {
+    font-family: Montserrat;
+
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+
+  .headingXlExample {
+    font-family: Montserrat;
+    
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    
+  }
+  .linkColor{
+    
+    color:gold;
+
+  }
+
+  .linkColor:hover {
+    color:rgb(218, 191, 37);
+
+  }
+
+  .headingLg {
+    font-family: Montserrat;
+
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+  
+  .headingMd {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .borderCircle {
+    padding-top: 1rem;
+    border-radius: 5px;
+  }
+  
+  .colorInherit {
+    color: inherit;
+  }
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+  
+  .lightText {
+    color: #999;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .rainbow {
+    border-radius: 2%;
+  }
