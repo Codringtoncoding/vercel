@@ -7,12 +7,13 @@ const PdfViewer = dynamic(import("../components/webviewer"), { ssr: false });
 export default function PdfViewerPage() {
   return (
     <>
-      <div className={PdfViewerStyles.container}>
-        <Head>
-          <title>Example Leavers Book</title>
-        </Head>
+      <Head>
+        <title>Example Leavers Book</title>
+      </Head>
+      <section className={PdfViewerStyles.container}>
+
         <PdfViewer></PdfViewer>
-      </div>
+      </section>
     </>
   );
 }

@@ -1,6 +1,7 @@
 import utilStyles from "../styles/utils.module.css";
 import searchTranslations from "../public/text.json";
 import styles from "../styles/layout.module.css";
+import cardStyles from "../styles/card.module.css";
 
 export default function Information() {
   const text = searchTranslations;
