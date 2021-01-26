@@ -9,8 +9,7 @@ import searchTranslations from "../public/text.json";
 import CardBanner from "../components/cardBanner.js";
 import InstaExample from "../components/instaExample.js";
 import GridLayout from "../components/gridLayout";
-import styles from "../styles/layout.module.css";
-
+import Footer from "../components/footer"
 const text = searchTranslations;
 
 export default function Home() {
@@ -28,12 +27,8 @@ export default function Home() {
           <HeadMasterComment></HeadMasterComment>
         </div>
       </main>
+      <Footer></Footer>
 
-      <footer>
-        <div className={styles.container}>
-          <b>{text.textTen}</b>
-        </div>
-      </footer>
     </>
   );
 }
